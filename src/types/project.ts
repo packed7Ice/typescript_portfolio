@@ -6,7 +6,10 @@ export type TechTag =
   | "PHP"
   | "ONNX"
   | "LLM"
-  | "Python";
+  | "Python"
+  | "JavaScript"
+  | "HTML"
+  | "CSS";
 
 export interface Project {
   id: string;
