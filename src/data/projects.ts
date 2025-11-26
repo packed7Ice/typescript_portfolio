@@ -20,9 +20,17 @@ export const projects: Project[] = [
   {
     id: "minesweeper",
     title: "Minesweeper Web アプリ",
-    description: "PHP＋JS で作ったゲームを React 化する計画。",
+    description: "PHP＋JS で作ったゲーム。",
     techs: ["PHP", "JavaScript", "CSS",],
     githubUrl: "https://github.com/packed7Ice/minesweeper",
-    status: "idea",
+    status: "completed",
+  },
+  {
+    id: "txttomd",
+    title: "Txt to Markdown Converter",
+    description: "テキストにマークダウン修飾が施せるWeb アプリ。",
+    techs: ["JavaScript", "CSS", "HTML"],
+    githubUrl: "https://github.com/packed7Ice/txttomd",
+    status: "wip",
   }
 ];
