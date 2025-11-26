@@ -15,4 +15,11 @@ export const socials: SocialLink[] = [
     username: "@YorikawaAise",
     description: "たまにいます",
   },
+  {
+    id: "discord",
+    platform: "Discord",
+    url: undefined, // URL遷移を無効化
+    username: "@yorikawaaise",
+    description: "メインの連絡先です",
+  }
 ];
