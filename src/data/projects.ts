@@ -32,5 +32,5 @@ export const projects: Project[] = [
     techs: ["JavaScript", "CSS", "HTML"],
     githubUrl: "https://github.com/packed7Ice/txttomd",
     status: "wip",
-  }
+  },
 ];

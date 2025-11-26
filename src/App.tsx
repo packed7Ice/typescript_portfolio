@@ -1,6 +1,8 @@
 import { Sidebar } from "./components/Sidebar";
 import { ProjectCard } from "./components/ProjectCard";
 import { projects } from "./data/projects";
+import { SocialCard } from "./components/SocialCard";
+import { socials } from "./data/socials";
 
 function App() {
   return (
@@ -13,6 +15,15 @@ function App() {
           <p className="text-sm text-slate-300">
             依川 愛瀬の作品をまとめたポートフォリオです。
           </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="mb-3 text-xl font-semibold">Socials</h2>
+          <div className="grid gap-4 grid-cols-2 md:grid-cols-4">
+            {socials.map((s) => (
+              <SocialCard key={s.id} {...s} />
+            ))}
+          </div>
         </section>
 
         <section className="mb-8">
