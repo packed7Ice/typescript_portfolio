@@ -1,14 +1,33 @@
 import type { Project } from "../types/project";
 
 export const projects: Project[] = [
-    {
-        id: "typescript_portfolio",
-        title: "TypeScript Portfolio",
-        description: "このポートフォリオサイト。TypeScript + React + TailwindCSS を勉強するために作成。",
-        techs: ["TypeScript", "React", "Tailwind"],
-        githubUrl: "https://github.com/packed7Ice/typescript_portfolio",
-        status: "wip",
-    },
+  {
+    id: "typescript_portfolio",
+    title: "TypeScript Portfolio",
+    description: "このポートフォリオサイト。TypeScript + React + TailwindCSS を勉強するために作成。",
+    techs: ["TypeScript", "React", "Tailwind", "Vite"],
+    githubUrl: "https://github.com/packed7Ice/typescript_portfolio",
+    status: "wip",
+    frequency: "medium",
+  },
+  {
+    id: "Termicrawler",
+    title: "Termicrawler",
+    description: "ターミナル風UI をキーボードタイピングを駆使しながら攻略するローグライクゲーム。",
+    techs: ["TypeScript", "React", "Tailwind", "Vite"],
+    githubUrl: "https://github.com/packed7Ice/Termicrawler",
+    status: "wip",
+    frequency: "high",
+  },
+  {
+    id: "AiceCube",
+    title: "AiceCube",
+    description: "エージェント型DAW 制作。",
+    techs: ["C++","Python","CMake"],
+    githubUrl: "https://github.com/packed7Ice/AiceCube",
+    status: "wip",
+    frequency: "high",
+  },
   {
     id: "sofuhana",
     title: "花札Web アプリ",
@@ -16,6 +35,7 @@ export const projects: Project[] = [
     techs: ["JavaScript", "CSS", "HTML"],
     githubUrl: "https://github.com/packed7Ice/sofuhana",
     status: "wip",
+    frequency: "low",
   },
   {
     id: "minesweeper",
@@ -24,6 +44,7 @@ export const projects: Project[] = [
     techs: ["PHP", "JavaScript", "CSS",],
     githubUrl: "https://github.com/packed7Ice/minesweeper",
     status: "completed",
+    frequency: "none",
   },
   {
     id: "txttomd",
@@ -32,5 +53,6 @@ export const projects: Project[] = [
     techs: ["JavaScript", "CSS", "HTML"],
     githubUrl: "https://github.com/packed7Ice/txttomd",
     status: "wip",
+    frequency: "low",
   },
 ];

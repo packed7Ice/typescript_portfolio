@@ -9,7 +9,12 @@ export type TechTag =
   | "Python"
   | "JavaScript"
   | "HTML"
+  | "C++"
+  | "CMake"
+  | "Vite"
   | "CSS";
+
+export type DevelopmentFrequency = "high" | "medium" | "low" | "none";
 
 export interface Project {
   id: string;
@@ -18,5 +23,6 @@ export interface Project {
   techs: TechTag[];
   githubUrl?: string;
   demoUrl?: string;
-  status: "wip" | "completed" | "idea";
+  status: "wip" | "completed";
+  frequency: DevelopmentFrequency;
 }
